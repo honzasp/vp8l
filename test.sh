@@ -3,6 +3,7 @@ INPUT_DIR='test/input'
 OUTPUT_DIR='test/output'
 REF_DIR='test/ref'
 CHECK_DIR='test/check'
+mkdir -p "$OUTPUT_DIR" "$REF_DIR" "$CHECK_DIR"
 for input_file in `find test/input -type f | sort`; do
   file="$(basename "$input_file")"
   base="${file%.*}"

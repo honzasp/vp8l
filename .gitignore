@@ -1,0 +1,13 @@
+.*.swp
+output*.webp
+output*.png
+libwebp/
+*.exe
+*.exe.mdb
+Session.vim
+VP8L.zip
+test/*
+!test/input
+!test/cwebp
+!test/dwebp
+!test/vwebp
